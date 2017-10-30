@@ -1,7 +1,7 @@
 #!/bin/sh
 VERSION=1.0.0
 REGISTRY=asbjornenge
-CONTAINER=dev
+CONTAINER=debug
 set -e
 if [[ $@ == *"build"* ]]; then
   docker build -t $REGISTRY/$CONTAINER:$VERSION .

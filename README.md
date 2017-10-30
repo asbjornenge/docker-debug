@@ -1,3 +1,3 @@
-# Docker Development Container
+# Docker Debug Container
 
-A dev container I can spawn here & there if I need to do some debugging.
+A debug container with some tools I usually need.
