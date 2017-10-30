@@ -1,3 +1,6 @@
-FROM alpine:latest
+FROM ubuntu:latest
 RUN apt update
-RUN apt install --force-yes openssh-client iputils-ping
+RUN apt install -y openssh-client \
+iputils-ping \
+dnsutils \
+telnet
