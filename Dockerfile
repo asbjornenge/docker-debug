@@ -4,4 +4,5 @@ openssh-client \
 iputils-ping \
 dnsutils \
 telnet \
+curl \
 && rm -rf /var/lib/apt/lists/*
